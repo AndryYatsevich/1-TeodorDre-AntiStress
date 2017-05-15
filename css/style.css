@@ -1,0 +1,30 @@
+body {
+  background-color: #f3f3f3;
+
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-page {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.brands {
+  min-height: 185px;
+  background-color:  #f10e34;
+}
+
+.footer-page {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.copyright-info {
+  background-color: #1f1e1e;
+  color: #ffffff;
+}
