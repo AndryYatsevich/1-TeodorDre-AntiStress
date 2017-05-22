@@ -758,7 +758,7 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   text-decoration: line-through;
 }
 
-.test-fixed {
+.basket-fixed {
   padding: 10px;
   color: white;
   background: rgba(15, 140, 233, 0.7);
