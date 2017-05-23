@@ -775,13 +775,198 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   background-color: #222222;
   color: #ffffff;
   font-size: 14px;
-  font-family: "Myriad Pro";
   line-height: 1.714;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  color: #919191;
+  padding-top: 60px;
 }
+
+.footer-page .about-us {
+  width: 275px;
+}
+
+.about-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.about-us ul li {
+  margin-bottom: 5px;
+}
+
+.about-us ul .address::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 25px;
+  background-position: -24px -27px;
+  background: url("../img/about-us-sprites.png") no-repeat;
+  left: 5px;
+}
+
+.about-us ul .phone::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 25px;
+  background: url("../img/about-us-sprites.png") no-repeat;
+  width: 12px;
+  height: 12px;
+  background-position: -24px -5px;
+  left: 10px;
+  bottom: 35px;
+}
+
+.about-us ul .email::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 25px;
+  background: url("../img/about-us-sprites.png") no-repeat;
+  width: 12px;
+  height: 12px;
+    background-position: -24px -27px;
+  left: 10px;
+  bottom: 5px;
+}
+
+.footer-page .information {
+  width: 130px;
+}
+
+.footer-page > div > b {
+  color: #fff;
+}
+
+.footer-page .information ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.information ul li {
+  margin-bottom: 5px;
+}
+
+.footer-page .social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+  position: relative;
+}
+
+.social ul .vk-social::before {
+  content: "";
+  position: absolute;
+  background: url("../img/social-sprites.png") no-repeat;
+  width: 17px;
+    height: 17px;
+    background-position: -27px -28px;
+    left: -18px;
+    top: 3px;
+}
+
+.social ul .ins-social::before {
+  content: "";
+  position: absolute;
+  background: url("../img/social-sprites.png") no-repeat;
+  width: 17px;
+  height: 13px;
+  background-position: -27px -5px;
+  left: -18px;
+  top: 27px;
+}
+
+.social ul .twitter-social::before {
+  content: "";
+  position: absolute;
+  background: url("../img/social-sprites.png") no-repeat;
+  width: 12px;
+  height: 17px;
+  background-position: -5px -28px;
+  left: -18px;
+  top: 48px;
+}
+
+.worktime {
+  position: relative;
+}
+
+.worktime .worktime-icon::before {
+  content: "";
+  position: absolute;
+  background: url("../img/social-sprites.png") no-repeat;
+  width: 12px;
+  height: 12px;
+  background-position: -5px -5px;
+  left: -18px;
+  top: 5px;
+}
+
+.footer-page .payment-time {
+  width: 260px;
+}
+
+.payment-time .payment {
+  position: relative;
+}
+
+
+.payment .visa-icon::before {
+  content: "";
+  position: absolute;
+  background: url("../img/payment-sprites.png") no-repeat;
+  width: 53px;
+  height: 31px;
+  background-position: -5px -5px;
+  left: -18px;
+  top: 5px;
+}
+
+.payment .mastercard-icon::before {
+  content: "";
+  position: absolute;
+  background: url("../img/payment-sprites.png") no-repeat;
+  width: 47px;
+  height: 31px;
+  background-position: -68px -5px;
+  top: 5px;
+  left: 35px;
+}
+
 
 .copyright-info {
   background-color: #1f1e1e;
   color: #ffffff;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.copyright-info ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright-info ul li {
+  margin-right: 20px;
+}
+
+.copyright-info ul li:nth-last-child {
+  margin-right: 0;
 }
 
 .clearfix {
