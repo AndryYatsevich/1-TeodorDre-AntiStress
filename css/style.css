@@ -144,6 +144,14 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   text-decoration: none;
 }
 
+.navigation li a:hover {
+  color: #e5e5e5;
+}
+
+.navigation li a:active {
+  color: #989797;
+}
+
 
 .cathegories {
   font-size: 15px;
@@ -183,16 +191,26 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 }
 
 .cathegory ul li {
-  padding-left: 40px;
-  padding-top: 5px;
-  padding-bottom: 5px;
   border-top: 1px solid #eaeaea;
 }
 
 .cathegory ul a {
   text-decoration: none;
   color: #222;
+  display: block;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+.cathegory ul a:hover {
+  background-color: #e5e5e5;
+}
+
+.cathegory ul a:active {
+  box-shadow: inset 1px 1px 5px black;
+}
+
 
 /*
 
@@ -217,16 +235,24 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   margin-right: 85px;
 }
 
-.cathegories ul a {
+.cathegories ul li a {
   color: #fff;
   text-decoration: none;
+  padding: 0 20px;
+  display: block;
 }
 
+.cathegories ul li a:hover {
+  background-color: #cd1030;
+}
+
+.cathegories ul li a:active {
+  box-shadow: inset 1px 1px 10px black;
+}
 
 .cathegories li {
   display: inline-block;
   font-size: 14px;
-  padding: 0 20px;
 }
 
 
@@ -287,6 +313,14 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   padding: 10px 20px;
   border: 2px solid #222222;
   margin-left: 170px;
+}
+
+.slider-btn:hover {
+  box-shadow: 1px 1px 10px #222;
+}
+
+.slider-btn:active {
+  box-shadow: inset 1px 1px 10px #222;
 }
 
 .slider-features {
@@ -412,6 +446,11 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   padding-top: 25px;
 }
 
+.deal-img > img:hover,
+.catalog-item > img:hover {
+  box-shadow: 0 0 12px black;
+}
+
 .catalog-item p {
   text-align: center;
   margin: 10px 0px;
@@ -460,6 +499,7 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   font-size: 11px;
   margin-bottom: 30px;
   padding: 5px 20px;
+  cursor: pointer;
 }
 
 .btn {
@@ -471,6 +511,10 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
+}
+
+.btn:hover {
+  background-color: #dc092d;
 }
 
 .subscribe form {
@@ -546,6 +590,10 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 .catalog-info a {
   font-size: 14px;
   text-decoration: none;
+  color: #a9a9a9;
+}
+
+.catalog-info a:hover {
   color: #222;
 }
 
@@ -582,7 +630,6 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   left: 65px;
 }
 
-
 .pagination .next {
   width: 22px;
   height: 22px;
@@ -593,6 +640,23 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
   top: 24px;
   left: 35px;
 }
+
+.prev:hover {
+  background-color: #a3a3a3;
+}
+
+.prev:active {
+  background-color: #8c8c8c;
+}
+
+.next:hover {
+  background-color: #d20a2b;
+}
+
+.next:active {
+  background-color: #bc0a27;
+}
+
 
 .new-product-catalog {
   background-color: #fff;
